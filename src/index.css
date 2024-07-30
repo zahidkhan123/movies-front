@@ -1,0 +1,174 @@
+.main-div {
+  height: 100vh !important;
+}
+.position {
+  position: relative;
+}
+.signin h1 {
+  font-size: 64px;
+}
+.signin input {
+  width: 300px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: #224957;
+  border: none;
+  outline: none;
+  color: white;
+  padding-left: 16px;
+}
+::placeholder {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+}
+.check-box input {
+  width: 18px;
+  height: 17px;
+  border-radius: 5px;
+  background-color: #224957 !important;
+}
+.signin button {
+  background-color: #2bd17e;
+  width: 300px;
+  height: 54px;
+  border: none;
+  border-radius: 10px;
+}
+.fotter {
+  position: absolute;
+  bottom: 0;
+}
+
+/* empty state css */
+.empty-state h1 {
+  font-size: 48px;
+}
+.empty-state button {
+  width: 202px;
+  height: 56px;
+  background-color: #2bd17e;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+/* movie list css */
+.movies {
+  padding: 120px;
+}
+.movie-header div {
+  width: max-content;
+}
+.movie-list > div {
+  background-color: #092c39;
+  width: 282px;
+  height: 504px;
+  border-radius: 12px;
+  padding: 8px;
+}
+.edit {
+  width: 50px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+  font-weight: 700;
+}
+.edit:hover {
+  background-color: #2bd17e;
+  border: none;
+}
+.movie-list {
+  gap: 24px;
+  margin-bottom: 120px;
+  margin-top: 120px;
+}
+.movie-list img {
+  width: 100%;
+  height: 400px;
+  border-radius: 12px;
+}
+.movie-list h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.movie-list h5 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.movie-list-fotter div {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+
+  background-color: #092c39;
+  color: white;
+  font-weight: 700;
+}
+.movie-list-fotter div:hover {
+  background-color: #2bd17e;
+  cursor: pointer;
+}
+.movie-list-fotter span {
+  font-weight: 700;
+}
+.movie-list-fotter {
+  margin-bottom: 109px;
+}
+/* create movie css */
+.drop-image {
+  width: 473px;
+  height: 504px;
+  background-color: #224957;
+  border-radius: 10px;
+  border: 2px dashed white;
+}
+.title {
+  width: 362px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  background-color: #224957;
+  padding-left: 16px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.year {
+  width: 216px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  background-color: #224957;
+  padding-left: 16px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.inputs {
+  gap: 127px;
+  margin-top: 120px;
+  margin-bottom: 110px;
+}
+.drop-image > h4 {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.inputs button {
+  width: 167px;
+  height: 56px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  font-weight: 700px;
+}
+.inputs button:hover {
+  background-color: #2bd17e;
+  cursor: pointer;
+  border: none;
+}
+.create-movie {
+  padding: 120px;
+}
